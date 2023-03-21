@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Workshop 1 Part 1</title>
+        <script src="https://d3js.org/d3.v6.js"></script>
+
+    </head>
+    <body>
+        
+        <script type="text/javascript">
+        d3.csv("D:/Assets/CS5346/CO2.csv")
+        .then(function(data) {
+          console.log("CSV file imported successfully:", data);
+          // add your visualization code here
+        })
+        .catch(function(error) {
+          console.log("Error loading CSV file:", error);
+        });
+        </script>
+    </body>
+</html> 
