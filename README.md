@@ -3,8 +3,6 @@
 This project presents a line graph visualization comparing CO2 Emissions for China and US. 
 The visualization is created using the D3.js library.
 
-![Line Graph Visualization](line-graph-example.png)
-
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
